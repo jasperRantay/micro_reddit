@@ -5,5 +5,13 @@
     <li>
       <%= link_to post.title, post%>
     </li>
+
+    <h1><%= post.title %></h1>
+
+    <p><%= post.body %></p>
+
   <% end %>
+
+
+<%= link_to "New Post", new_post_path %>
 </ul>
